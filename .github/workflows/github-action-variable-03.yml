@@ -10,7 +10,4 @@ jobs:
     steps:
     - name: ${{ vars.VAR_KEY }}
       run: |
-        echo "repository variable"
-        echo "organization variable"
-        echo "overridden variable"
-        echo "variable from shell"
+        echo "Print VAR_KEY : ${{ vars.JOB_NAME }}"
