@@ -9,4 +9,4 @@ jobs:
         with:
           repository: actions/checkout
           ref: v4
-      - run: ls -al checkout-dir
+      - run: ls -al
